@@ -65,3 +65,14 @@ gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 gem 'carrierwave-aws', '~> 1.5'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
 
+#gem 'rubyzip', '>= 1.0.0' # will load new rubyzip version
+#gem 'zip-zip' # will load compatibility for old rubyzip API.
+#
+#gem 'axlsx', '~> 2.0' #, '>= 2.0.1'
+#gem 'axlsx_rails', '~> 0.6.1'
+#
+#gem 'caxlsx'
+#gem 'caxlsx_rails'
+gem 'rubyzip', '= 1.0.0'
+gem 'axlsx', '= 2.0.1'
+gem 'axlsx_rails'
