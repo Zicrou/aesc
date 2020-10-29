@@ -34,9 +34,9 @@ class EtudiantsController < ApplicationController
   # GET /etudiants/1
   # GET /etudiants/1.json
   def show
-    @dat = @etudiant.province_uinversite_filiere
-    @data = Province.find_by name: @dat
-    @data_zone = @data.zone
+    #@dat = @etudiant.province_uinversite_filiere
+    #@data = Province.find_by name: @dat
+    #@data_zone = @data.zone
   end
 
   # GET /etudiants/new
